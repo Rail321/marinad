@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>Оформление</title>
+</head>
+<body>
+	<header class="block header">
+	<a href="index.html" class="header__logo">
+		<img src="img/header__logo.png" alt="image">
+	</a>
+	<nav class="container header__container">
+		<div class="header__burger"></div>
+		<ul class="header__nav">
+			<li class="header__link"><a href="index.html">Главная</a></li>
+			<li class="header__link"><a href="menu.html">Меню</a></li>
+			<li class="header__link"><a href="promotion.html">Акции</a></li>
+			<li class="header__link"><a href="poster.html">Афиша</a></li>
+			<li class="header__link"><a href="delievery.html">Доставка</a></li>
+			<li class="header__link"><a href="reservation.html">Бронирование</a></li>
+			<li class="header__link"><a href="contacts.html">Контакты</a></li>
+		</ul>
+		<div class="header__basket">
+			<div class="header__pseudo">
+				<img src="img/header__basket.png" alt="image">
+				<span>2</span>
+			</div>
+		</div>
+	</nav>
+</header>
+	<main class="content">
+		<div class="block merchheading">
+			<div class="container merchheading__container">
+				<h1 class="merchheading__title underline">ОФОРМЛЕНИЕ ЗАКАЗА</h1>
+			</div>
+		</div>
+		<div class="block form">
+			<div class="container form__container">
+				<form class="form__section">
+					<div class="form__header">
+						<h2 class="form__h">регион доставки</h2>
+						<div class="form__change">изменить</div>
+					</div>
+					<div class="form__body">
+						<label class="form__label" for="">
+							<p>Местоположение</p>
+							<input class="form__input" type="text">
+						</label>
+						<p class="form__p">Выберите свой город в списке. Если вы не нашли свой город, выберите "другое Местоположение, а город впишите в поле "Город"</p>
+						<div class="form__buttons">
+							<button class="button button form__button">далее</button>
+						</div>
+					</div>
+				</form>
+				<form class="form__section">
+					<div class="form__header">
+						<h2 class="form__h">ДОСТАВКА</h2>
+						<div class="form__change">изменить</div>
+					</div>
+					<div class="form__body form__delievery">
+						<label class="form__label">
+							<input class="form__radio" type="radio" id="form__radio" name="form__radio" value="courier">
+							<span>Доставка курьером</span>
+						</label>
+						<label class="form__label">
+							<input class="form__radio" type="radio" id="form__radio" name="form__radio" value="self">
+							<span>Самовывоз</span>
+						</label>
+						<label class="form__margin-block">
+							<p>Применить купон</p>
+							<select class="form__select form__margin-block">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</label>
+						<div class="form__buttons">
+							<div>
+								<button class="button form__button">назад</button>
+								<button class="button form__button">далее</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				<form class="form__section">
+					<div class="form__header">
+						<h2 class="form__h">ОПЛАТА</h2>
+						<div class="form__change">изменить</div>
+					</div>
+					<div class="form__body">
+						<label class="form__label">
+							<input class="form__radio" type="radio" id="form__radio" name="form__radio" value="courier">
+							<span>Наличный расчет</span>
+						</label>
+						<label class="form__label form__buy">
+							<input class="form__radio" type="radio" id="form__radio" name="form__radio" value="self">
+							<span>Безналичный расчет</span>
+						</label>
+						<div class="form__buttons">
+							<div>
+								<button class="button form__button">назад</button>
+								<button class="button form__button">далее</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				<form class="form__section">
+					<div class="form__header">
+						<h2 class="form__h">ВАШИ ДАННЫЕ</h2>
+						<div class="form__change">изменить</div>
+					</div>
+					<div class="form__body">
+						<label class="form__label" for="">
+							<p>Ф.И.О.</p>
+							<input class="form__input" type="text">
+						</label>
+						<label class="form__label" for="">
+							<p>E-mail</p>
+							<input class="form__input form__input-short" type="text">
+						</label>
+						<label class="form__label" for="">
+							<p>Телефон</p>
+							<input class="form__input form__input-short" type="text">
+						</label>
+						<label class="form__label" for="">
+							<p>Адрес доставки</p>
+							<input class="form__input" type="text">
+						</label>
+						<label class="form__label" for="">
+							<p>Комментарии к заказу</p>
+							<textarea class="form__input form__textarea"></textarea>
+						</label>
+						<div class="form__buttons">
+							<div>
+								<button class="button form__button">назад</button>
+								<button class="button form__button">далее</button>
+							</div>
+						</div>
+					</div>
+				</form>
+				<form class="form__section">
+					<div class="form__header">
+						<h2 class="form__h">ТОВАРЫ В ЗАКАЗЕ</h2>
+					</div>
+					<div class="form__body">
+						<ul class="form__ul">
+							<li>
+								<div class="form__name">Салат «Афродизиак»</div>
+								<div class="form__many">1 шт.</div>
+								<div class="form__count">399 р.-</div>
+							</li>
+							<li>
+								<div class="form__name">Суп-крем «Салмон»</div>
+								<div class="form__many">1 шт.</div>
+								<div class="form__count">279 р.-</div>
+							</li>
+						</ul>
+						<div class="form__buttons form__buttons-ul">
+							<button class="button form__button">ВЕРНУТЬСЯ В КОРЗИНУ</button>
+							<button class="button form__button">ОФОРМИТЬ ЗАКАЗ</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+	<section class="block subscribe">
+		<div class="container subscribe__container">
+			<p class="subscribe__text1">ХОЧЕШЬ УЗНАВАТЬ ОБО ВСЕМ ПЕРВЫМ?</p>
+			<p class="subscribe__text2">ПОДПИШИСЬ НА РАССЫЛКУ</p>
+			<form action="GET" class="subscribe__form">
+				<input type="email" class="input subscribe__mail" placeholder="e-mail">
+				<button type="submit" class="button subscribe__btn">Отправить</button>
+			</form>
+		</div>
+	</section>
+	<section class="block submenu">
+		<div class="container submenu__container">
+			<div class="submenu__main">
+				<div class="submenu__contacts">
+					<div class="submenu__numbers">
+						<p>Гриль-бар «Маринад»</p>
+						<p>г. Нижний Тагил, ул. Победы 47</p>
+						<a href="tel:(3435) 43-43-42">(3435) 43-43-42</a>
+						<a href="tel:+7 901 851 99 43">+7 901 851 99 43</a>
+					</div>
+					<div class="submenu__social">
+						<a href="https://vk.com">
+							<img src="img/submenu__vk.png" alt="image">
+						</a>
+						<a href="https://instagram.com">
+							<img src="img/submenu__instagram.png" alt="image">
+						</a>
+					</div>
+				</div>
+				<div class="submenu__menu">
+					<div class="submenu__nav">
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="menu.html">Меню</a></li>
+							<li><a href="promotion.html">Акции</a></li>
+							<li><a href="poster.html">Афиша</a></li>
+							<li><a href="delievery.html">Доставка</a></li>
+							<li><a href="reservation.html">Бронирование</a></li>
+							<li><a href="contacts.html">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="submenu__text">
+						<ul>
+							<li><a href="#">Вакансии</a></li>
+							<li><a href="gallery.html">Галерея</a></li>
+							<li><a href="#">Карта сайта</a></li>
+							<li><a href="#">Отзывы</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="submenu__card">
+					<p>ПОЛУЧИТЬ БОНУСУЮ КАРТУ</p>
+					<form action="GET" class="submenu__form">
+						<input type="tel" id="phone" class="input submenu__number" placeholder="+ 7 (    )">
+						<button type="submit" class="button submenu__btn">Отправить</button>
+					</form>
+				</div>
+			</div>
+			<div class="submenu__copyright">
+				<span>Гриль-бар Маринад © 2020</span>
+			</div>
+		</div>
+	</section>
+</footer>
+
+	<link rel="stylesheet" href="css/main.css">
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

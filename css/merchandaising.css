@@ -1,0 +1,229 @@
+.merchheading {
+  background-image: url("../img/preview__background.jpg");
+  background-repeat: no-repeat;
+  background-position: 68% 100%; }
+  .merchheading__container {
+    height: 386px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .merchheading__title {
+    font-size: 60px;
+    line-height: 72px;
+    padding: 80px 0 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 20px; }
+    @media screen and (max-width: 700px) {
+      .merchheading__title {
+        font-size: 44px;
+        line-height: 48px; } }
+    @media screen and (max-width: 494px) {
+      .merchheading__title {
+        max-width: 288px; } }
+
+.form {
+  font-size: 18px; }
+  .form__container {
+    width: 1130px;
+    max-width: 100%;
+    padding: 110px 0 150px; }
+    @media screen and (max-width: 1024px) {
+      .form__container {
+        padding: 55px 0 75px; } }
+  .form__section {
+    padding: 0 0 33px; }
+    .form__section label {
+      display: block; }
+  .form__header {
+    width: 100%;
+    min-height: 50px;
+    background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .form__h {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 38px;
+    padding: 0 24px 0; }
+  .form__change {
+    font-size: 16px;
+    line-height: 38px;
+    text-decoration: underline;
+    padding: 0 24px 0;
+    cursor: pointer; }
+    @media screen and (max-width: 650px) {
+      .form__change {
+        font-size: 14px; } }
+  .form__body {
+    padding: 29px 22px 0;
+    color: #000; }
+  .form__label {
+    display: block;
+    font-size: 18px;
+    line-height: 38px; }
+    .form__label p {
+      margin: 0 0 15px; }
+  .form__input {
+    font-size: 18px;
+    padding: 18px 15px;
+    width: 100%;
+    height: 51px;
+    border: 2px solid #000000;
+    margin: 0 0 15px; }
+    .form__input-short {
+      max-width: 100%;
+      width: 541px; }
+  .form__textarea {
+    padding: 18px 20px 18px 15px;
+    min-height: 51px;
+    max-height: 500px;
+    resize: vertical;
+    overflow: hidden; }
+  .form__p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 38px;
+    margin: 0 0 15px; }
+  .form__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .form__buttons > div {
+      width: 100%;
+      max-width: 303px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+  .form__button {
+    padding: 12.6px 22px;
+    font-size: 18px;
+    min-width: 129px;
+    color: #000;
+    border: 2px solid #000; }
+    .form__button:hover {
+      color: #fff;
+      background-color: #000; }
+  .form__radio {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    margin: 0 26px 0 0; }
+    .form__radio::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      background-color: #e6e5e5; }
+    .form__radio:checked::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #000;
+      -webkit-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      visibility: visible; }
+  .form__select {
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #000000;
+    font-size: 18px;
+    padding: 11px 15px;
+    height: 51px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    background-image: url("../img/form__select-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: right .7em top 50%;
+    background-size: 11px 16px; }
+  .form__buy {
+    margin: 0 0 20px; }
+  .form__margin-block {
+    margin: 22px 0; }
+  .form__margin-element {
+    margin: 10px 0; }
+  .form__ul {
+    font-size: 16px; }
+    .form__ul li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      text-align: center;
+      margin: 0 0 26px; }
+  .form__name {
+    text-align: left;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%; }
+  .form__many {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%; }
+  .form__count {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 25%;
+            flex: 1 1 25%; }
+  .form__buttons-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    @media screen and (max-width: 552px) {
+      .form__buttons-ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; } }
+    .form__buttons-ul button {
+      min-width: 200px;
+      margin: 0 0 20px 0; }
+      .form__buttons-ul button:first-child {
+        margin: 0 20px 20px 0; }
+      @media screen and (max-width: 552px) {
+        .form__buttons-ul button {
+          margin: 0; }
+          .form__buttons-ul button:first-child {
+            margin: 0 0 20px 0; } }

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'AAvanteIntBook';
+  src: url("../fonts/AAvanteIntBook.eot");
+  src: url("../fonts/AAvanteIntBook.eot?#iefix") format("embedded-opentype"), url("../fonts/AAvanteIntBook.woff2") format("woff2"), url("../fonts/AAvanteIntBook.woff") format("woff"), url("../fonts/AAvanteIntBook.ttf") format("truetype"), url("../fonts/AAvanteIntBook.svg#AAvanteIntBook") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }

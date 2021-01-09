@@ -1,0 +1,88 @@
+.delievery {
+  background-image: url("../img/delievery__background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0 137px; }
+  @media screen and (max-width: 610px) {
+    .delievery {
+      padding: 150px 0 100px; } }
+  .delievery__container {
+    width: 100%; }
+  .delievery__secction {
+    min-height: 718px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); }
+  .delievery__wrapper {
+    width: 1158px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 89px 20px;
+    text-align: center; }
+  .delievery__title {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 38px;
+    padding: 0 0 15px; }
+    @media screen and (max-width: 610px) {
+      .delievery__title {
+        font-size: 36px; } }
+  .delievery__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 63px auto 94px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    @media screen and (max-width: 530px) {
+      .delievery__list {
+        margin: 63px auto 63px; } }
+  .delievery__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%;
+    margin: 0 -10px 41px;
+    padding: 0 20px; }
+    @media screen and (max-width: 1060px) {
+      .delievery__item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 50%;
+                flex: 0 1 50%; } }
+    @media screen and (max-width: 610px) {
+      .delievery__item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 100%;
+                flex: 0 1 100%; } }
+    .delievery__item h2 {
+      display: inline-block;
+      font-size: 30px;
+      line-height: 38px;
+      padding: 0 0 5px;
+      margin: 0 0 19px;
+      max-width: 100%;
+      white-space: nowrap; }
+      @media screen and (max-width: 610px) {
+        .delievery__item h2 {
+          font-size: 24px; } }
+      .delievery__item h2:before {
+        border-bottom: solid 2px #fff;
+        background: #fff; }
+    .delievery__item p {
+      font-size: 18px;
+      line-height: 34px;
+      text-align: center; }
+      @media screen and (max-width: 610px) {
+        .delievery__item p {
+          font-size: 16px; } }
+    .delievery__item span {
+      white-space: nowrap; }
+  .delievery__text {
+    font-size: 18px; }
+    .delievery__text p {
+      max-width: 711px;
+      margin: 0 auto 22px; }
+      @media screen and (max-width: 610px) {
+        .delievery__text p {
+          font-size: 16px; } }
